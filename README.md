@@ -12,17 +12,22 @@ Each turn:
 
 1. **Economy tick** — engine applies tax income, population upkeep (food/money),
    resource production, and maintenance costs automatically.
-2. **Private planning** — each kingdom's LLM sees only its own state + public
+   
+3. **Private planning** — each kingdom's LLM sees only its own state + public
    info about others, and privately decides what to do this turn.
-3. **Conference (public)** — all kingdoms exchange one round of public
+   
+5. **Conference (public)** — all kingdoms exchange one round of public
    messages, visible to everyone.
-4. **Secret meetings (optional)** — any kingdom can request a 1:1 private
+   
+7. **Secret meetings (optional)** — any kingdom can request a 1:1 private
    channel with another kingdom. Only those two see it.
-5. **Action resolution** — engine validates and applies every kingdom's
+   
+9. **Action resolution** — engine validates and applies every kingdom's
    submitted action (build unit, research tech, propose alliance, attack,
    trade, etc.), enforcing costs/prereqs. Illegal or unaffordable actions are
    rejected, not silently allowed.
-6. State is saved to `data/save_<n>.json` and a human-readable log is written
+   
+11. State is saved to `data/save_<n>.json` and a human-readable log is written
    to `logs/`.
 
 ## Project layout
