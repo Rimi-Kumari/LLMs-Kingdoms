@@ -8,7 +8,7 @@ model says.
 
 ## How it works
 
-Each turn:
+Each turn: 
 
 1. **Economy tick** — engine applies tax income, population upkeep (food/money),
    resource production, and maintenance costs automatically.
