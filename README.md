@@ -6,7 +6,7 @@ resource limits) is deterministic Python code — the AIs only ever choose
 kingdom can build a tank without steel, fuel, and money, no matter what the
 model says.
 
-## How it works
+## How it works 
 
 Each turn: 
 
